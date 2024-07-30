@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background-color: #ccc;
+}
+header {
+  background-color: rgb(34, 30, 30);
+}
+
+div.search {
+  display: flex;
+  width: 40%;
+  margin: auto;
+  padding: 4px;
+  background-color: #fff;
+  border: 2px solid rgb(11, 49, 11);
+  border-radius: 30px;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+}
+.container {
+  background-size: fit-content;
+  background-repeat: no-repeat;
+  height: 800px;
+  display: flex;
+  background-image: url("./public/bigstock-spoon-with-coffee-grounds-and-418366237.jpeg");
+  background-attachment : scroll;
+  position: relative;
+}
+div.container{
+  position: relative;
+  padding-top: 100;
+}
+h2{
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  color: #fff;
+ 
+}
+h3{
+ 
+}
