@@ -4,6 +4,7 @@ body {
   width: 100%;
   height: 100%;
 }
+/*HEADER */
 header {
   background-color: rgb(34, 30, 30);
   display: flex;
@@ -24,6 +25,34 @@ div.search {
   align-content: center;
   gap: 50px;
 }
+/*List*/
+nav>ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  flex-wrap: wrap;
+}
+.option{
+list-style: none;
+}
+li:hover{
+  color: rgb(200, 100, 50);
+  background-color: #ccc;
+}
+li:active{
+  color: #fff;
+  background-color: #fff;
+}
+.option li::after{
+ color: black;
+ content: "|";
+ margin-left: 100px; 
+}
+ul {
+  text-decoration: none;
+}
+/* Center*/
 .container {
   background-size: fit-content;
   background-repeat: no-repeat;
@@ -33,13 +62,6 @@ div.search {
   background-attachment: scroll;
   position: relative;
 }
-main > div {
-  position: relative;
-  flex-direction: column;
-  left: 50px;
-  top: 80px;
-}
-
 h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -51,10 +73,12 @@ p {
     "Lucida Sans", Arial, sans-serif;
   color: #fff;
 }
-ul {
-  text-decoration: none;
-}
-.store {
+/*Productos*/
+main > div {
+  position: relative;
+  flex-direction: column;
+  left: 50px;
+  top: 80px;
 }
 .coffeeclass{
   display: flex;
@@ -95,27 +119,11 @@ p.bcoffee {
 p.acoffee {
   color: chocolate;
 }
-nav>ul{
-  width: 100%;
+.classmain{
   display: flex;
   flex-direction: row;
-  justify-content:space-around ;
-  flex-wrap: wrap;
-}
-li:hover{
-  color: rgb(200, 100, 50);
-  background-color: #ccc;
-}
-li:active{
-  color: #fff;
-  background-color: #fff;
-}
-li{
- border: solid;
- border-radius: 30px;
- color: #fff;
- background-color: #aaa;
-}
-.classmain{
-  
+  position: relative;
+  margin: auto;
+  padding: 1px;
+  align-items: center;
 }
