@@ -102,7 +102,7 @@ main > div {
   flex-wrap: wrap;
 }
 div.blackcoffee {
-  box-shadow: 0px 0px 25px #0009;
+  box-shadow: 0px 0px 10px #0009;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -110,7 +110,7 @@ div.blackcoffee {
   height: 400px;
 }
 div.bcoffee {
-  box-shadow: 0px 0px 25px #0009;
+  box-shadow: 0px 0px 10px #0009;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -118,7 +118,7 @@ div.bcoffee {
   height: 400px;
 }
 div.acoffee {
-  box-shadow: 0px 0px 25px #0009;
+  box-shadow: 0px 0px 10px #0009;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -127,8 +127,8 @@ div.acoffee {
 }
 p.right {
   color: chocolate;
-  text-align: center;
-  padding: 4px;
+  padding: 10px;
+  font-size: 25px;
 }
 .classmain {
   display: flex;
@@ -143,7 +143,7 @@ img{
   height: 250px;
 }
 .name{
-  color: sienna;
-  text-align: center;
-  padding: 4px;
+  color: sienna; 
+  padding: 10px;
 }
+/*Footer*/
