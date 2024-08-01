@@ -1,9 +1,12 @@
 body {
   margin: 0;
   background-color: #ccc;
+  width: 100%;
+  height: 100%;
 }
 header {
   background-color: rgb(34, 30, 30);
+  display: flex;
 }
 
 div.search {
@@ -36,6 +39,7 @@ main > div {
   left: 50px;
   top: 80px;
 }
+
 h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -47,9 +51,71 @@ p {
     "Lucida Sans", Arial, sans-serif;
   color: #fff;
 }
-nav {
-  flex-direction: row;
-}
 ul {
   text-decoration: none;
+}
+.store {
+}
+.coffeeclass{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  flex-wrap: wrap;
+}
+div.blackcoffee {
+  border: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 200px;
+  height: 300px;
+}
+div.bcoffee {
+  border: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 200px;
+  height: 300px;
+}
+div.acoffee {
+  border: solid;
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 200px;
+  height: 300px;
+}
+p.blackcoffee {
+  color: chocolate;
+}
+p.bcoffee {
+  color: chocolate;
+}
+p.acoffee {
+  color: chocolate;
+}
+nav>ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+  flex-wrap: wrap;
+}
+li:hover{
+  color: rgb(200, 100, 50);
+  background-color: #ccc;
+}
+li:active{
+  color: #fff;
+  background-color: #fff;
+}
+li{
+ border: solid;
+ border-radius: 30px;
+ color: #fff;
+ background-color: #aaa;
+}
+.classmain{
+  
 }
